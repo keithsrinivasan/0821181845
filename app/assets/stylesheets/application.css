@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-body {
+/* body {
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
@@ -89,4 +89,4 @@ body {
 .edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
-}
+} */

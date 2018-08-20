@@ -17,3 +17,35 @@
     </div>
   <% end %>
 </div>
+
+
+<!-- map Ish -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Google Map</h1>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(30.4383,-84.2807),
+    zoom:12,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4eAL198ARhTds1juzMciV_O0jM0NGSQs&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+
+
